@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events in html</title>
+  </head>
+  <body onload="window.alert('Page loaded successfully');">
+    <p id="demo"></p>
+    <button onclick="document.getElementById('demo').innerHTML= Date();">
+      Click here to see date
+    </button>
+    <input
+      type="text"
+      id="focus"
+      placeholder="write here"
+      onfocus="myfocus();"
+    />
+    <script>
+      function myfocus() {
+        document.getElementById("focus").style.background = "red";
+      }
+    </script>
+  </body>
+</html>

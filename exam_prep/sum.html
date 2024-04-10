@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Two Numbers Using Textboxes</title>
+  </head>
+
+  <body>
+    <!-- Textboxes for user input -->
+    <input type="text" id="number1" placeholder="Enter first number" />
+    <input type="text" id="number2" placeholder="Enter second number" />
+    <!-- Button to trigger the calculation -->
+    <button onclick="addNumbers()">Calculate Sum</button>
+    <!-- Element to display the result -->
+    <p id="result"></p>
+
+    <script>
+      // Function to add numbers
+      function addNumbers() {
+        // Get the values from the textboxes and convert them to numbers
+        var num1 = parseFloat(document.getElementById("number1").value);
+        var num2 = parseFloat(document.getElementById("number2").value);
+
+        // Check if the inputs are numbers
+        if (isNaN(num1) || isNaN(num2)) {
+          document.getElementById("result").innerHTML =
+            "Please enter valid numbers";
+          return;
+        }
+
+        // Add the numbers
+        var sum = num1 + num2;
+
+        // Display the result
+        document.getElementById("result").innerHTML = "The sum is: " + sum;
+      }
+    </script>
+  </body>
+</html>

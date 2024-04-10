@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <button id="myButton">Click Me</button>
+    <div id="myDiv"></div>
+
+    <script>
+      // jQuery code to handle button click event
+      $(document).ready(function () {
+        $("#myButton").click(function () {
+          // Update content of myDiv using jQuery
+          $("#myDiv").text("Hello, jQuery!");
+        });
+      });
+    </script>
+  </body>
+</html>

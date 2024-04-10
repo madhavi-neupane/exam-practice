@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>display</title>
+  </head>
+  <body>
+    <h1>display number after taking from user</h1>
+    <input type="text" id="check" placeholder="enter any number" />
+    <button onclick="display()">display</button>
+    <p id="display"></p>
+    <script>
+      function display() {
+        var num = document.getElementById("check").value;
+        document.getElementById("display").innerHTML =
+          "The number you entered is: " + num;
+      }
+    </script>
+  </body>
+</html>
