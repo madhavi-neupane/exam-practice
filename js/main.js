@@ -162,17 +162,17 @@ console.log(todoJSON);
 //   }
 
 
-// const x = 10;
+const x = 10;
 
-// if (x===10){
-//     console.log('x is 10');
-// }
-// else if (x>10){
-//     console.log('x is greater than 10');
-// }
-// else{
-//     console.log('x is less than 10');
-// }
+if (x===10){
+    console.log('x is 10');
+}
+else if (x>10){
+    console.log('x is greater than 10');
+}
+else{
+    console.log('x is less than 10');
+}
 
 
 // const a=6;
@@ -190,22 +190,22 @@ console.log(todoJSON);
 
 
 
-// const x= 10;
+const a= 10;
 
-// const color = x > 10 ? 'yes' : 'no';
-// // console.log(`is given number greater than 10? ${color}`);
+const color = a > 10 ? 'yes' : 'no';
+console.log(`is given number greater than 10? ${color}`);
 
-// switch(color){
-//     case 'yes':
-//         console.log('answer is yes');
-//         break;
-//     case "no":
-//         console.log('answer is no');
-//         break;
-//     default:
-//         console.log('false statement');
-//         break;
-// }
+switch(color){
+    case 'yes':
+        console.log('answer is yes');
+        break;
+    case "no":
+        console.log('answer is no');
+        break;
+    default:
+        console.log('false statement');
+        break;
+}
 
 
 
