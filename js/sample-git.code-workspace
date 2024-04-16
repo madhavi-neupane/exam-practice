@@ -1,12 +1,14 @@
 {
-	"folders": [
-		{
-			"path": "../.."
-		},
-		{
-			"name": "sampletest",
-			"path": ".."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "../.."
+    },
+    {
+      "name": "sampletest",
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "sample-git"
+  }
 }
